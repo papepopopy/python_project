@@ -14,4 +14,9 @@ i.append(3)
 
 print(i) #[0, 3, 8, 1, 2, 3]
 i.sort() # 크기로 나열
+
+# j = len(i) #6
+j = i.count(8) #1 / i 배열의 8의 갯수 
+j = i.remove(8) #none
 print(i) #[0, 1, 2, 3, 3, 8]
+print(j)
