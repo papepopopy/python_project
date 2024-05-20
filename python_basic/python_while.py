@@ -1,8 +1,6 @@
 count = 0
 
 while count < 5:
-    print (count+1, "번째 연산입니다.")
-    
     num1 = int(input("첫번째 숫자를 입력하세요"))
     num2 = int(input("두번째 숫자를 입력하세요"))
     op = input("어떤 연산을 하시겠습니다? +-*/")
