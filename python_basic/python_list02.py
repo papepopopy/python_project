@@ -4,9 +4,16 @@ k = j[0:1]
 # k = j.append(3) 값이 성립 안함 
 m = j + i
 
+# print(i)
+# print(j)
+# print(k)
+# print(m)
 
-print(i)
-print(j)
-print(k)
-print(m)
+b = ["라", "마","다"]
+c = ("라", "마","다")
+d = {"글자1":"가", "글자 2":"나"}
 
+b.append("라")
+print(c) #('라', '마', '다')
+print(d) #{'글자1': '가', '글자 2': '나'}
+print(d["글자 1"]) #['글자 1']
