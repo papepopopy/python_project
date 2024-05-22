@@ -1,4 +1,4 @@
-import openai as oi
+import openai as oi 
 
 # oi.api_key = "sk-proj-iTQctJvnxIETFsmbxWbRT3BlbkFJiqlmixKGjW1vBEgNdVab"
 oi.api_key = "sk-proj-WzIygSxDJhkABeWaXY0ZT3BlbkFJJ2bYIBf6gN0RlXolWKia" #개인용 key 입력

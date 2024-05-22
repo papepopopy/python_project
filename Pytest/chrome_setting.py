@@ -1,4 +1,4 @@
-import subprocess as sp #새로운 프로세스 실행 및 관리를 위한 내부 모듈
+import subprocess as sp #새로운 프로세스 실행 및 관리를 위한 내부 모듈 
 import winreg as wr #윈도우 레지스트 편집 및  엑세스를 위한 내부 모듈
 
 def get_chrome_path():
