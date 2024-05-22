@@ -244,11 +244,11 @@ public class Game {
 						
 						System.out.println("-----------------------------------------------------");
 						System.out.println(m_weapon_name + " 으로 무장한  " + monster_name + "입니다.");
-						System.out.println(monster_HP);
-						System.out.println(m_weapon_dice);
-						System.out.println(monster_str); 
-						System.out.println(monster_dex);
-						System.out.println(monster_level);
+						System.out.println("체력 : " + monster_HP);
+						System.out.println("공격력 : " + m_weapon_dice);
+						System.out.println("힘 : " + monster_str); 
+						System.out.println("민첩성 :" + monster_dex);
+						System.out.println("레벨 :" + monster_level);
 					}
 					break;
 
