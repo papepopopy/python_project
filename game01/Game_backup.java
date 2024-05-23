@@ -2,22 +2,14 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class Game { 
-	//게임의 메인 클래스로, 게임의 주요 로직이 포함되어 있음.
+public class Game {
 
 	public static void main(String[] args) {
-		//main 메소드 : 프로그램 시작
-
 		// TODO Auto-generated method stub
 		boolean start_Game = true; // 게임진행 여부
-		// boolean 변수 : true와 false 값만 나와진다.
-
-		// rdm 객체 => Randam 클래스 사용
 		Random rdm = new Random(); // math.random 이 아닌 java.util 에 있는 random 함수 사용
-		
 		while (start_Game) { // 게임진행 루프
-			
-			// boolean 변수들
+
 			boolean character_set = true; // 플레이어 생성 진행 여뷰
 			int character_set_flag = 0; // 플레이어 생성 진행 flag
 			boolean tour = true; // 휴식 여부

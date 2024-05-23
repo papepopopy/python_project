@@ -1,0 +1,2 @@
+INDEX VERSION 1.132+C:\DevTool\workspace\python_project\game01\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
